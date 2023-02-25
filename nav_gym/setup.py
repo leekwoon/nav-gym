@@ -4,8 +4,10 @@ from setuptools import setup
 setup(
     name='nav_gym',
     description='navigation environment - Gym',
-    author='Kyowoon Lee',
     version='1.0',
+    license='MIT',
+    author='Kyowoon Lee',
+    author_email='leekwoon@unist.ac.kr',
     packages=['crowd_nav', 'crowd_sim', 'nav_gym_env', 'nav_gym_ros'],
     package_dir={'':'src'},
     install_requires=[

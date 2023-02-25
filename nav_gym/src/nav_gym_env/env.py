@@ -992,7 +992,7 @@ class NavGymEnv(gym.Env, utils.EzPickle):
                     -1 # -1 means fill the circle
                 )
 
-            # debug (human[0] lidar)
+            ## debug (human[0] lidar)
             # human_0 = self.humans[0]
             # observation_dict = observation_to_dict(
             #     self.prev_humans_obs_queue[0][-1]['observation'],
@@ -1045,7 +1045,7 @@ class NavGymEnv(gym.Env, utils.EzPickle):
                     cv2.LINE_AA
                 ) 
 
-            cv2.imshow("Dxp2D Env", img)
+            cv2.imshow("NavGym Env", img)
 
             cv2.waitKey(1)
         elif mode == 'rgb_array':

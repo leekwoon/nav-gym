@@ -69,8 +69,8 @@ class RosEnv(object):
         map_info = self._wrapped_env.map_info
         map_msg = ros_numpy.msgify(OccupancyGrid, map_info['data'])
         map_msg.info.resolution = map_info['resolution']
-        map_msg.info.width = map_info['width']
-        map_msg.info.height = map_info['height']
+        map_msg.info.width = map_info['height'] 
+        map_msg.info.height = map_info['width'] 
         map_msg.info.origin.position.x = map_info['origin'][0]
         map_msg.info.origin.position.y = map_info['origin'][1]
         map_msg.info.origin.position.z = 0 

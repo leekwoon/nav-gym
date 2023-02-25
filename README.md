@@ -14,7 +14,7 @@ source ~/venv/hrlnav/bin/activate
 
 git clone https://github.com/leekwoon/nav_gym.git
 
-cd nav_gym/nav_gym
+cd nav-gym/nav_gym
 pip install -e .
 ```
 
@@ -28,7 +28,7 @@ cd ~/YOUR_CATKIN_WORKSPACE/src
 git clone https://github.com/leekwoon/nav_gym.git
 
 # install nav_gym_env
-cd nav_gym/nav_gym
+cd nav-gym/nav_gym
 pip install -e .
 
 cd ~/YOUR_CATKIN_WORKSPACE
