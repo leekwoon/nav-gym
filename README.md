@@ -5,8 +5,8 @@ A OpenAI-gym compatible navigation simulator, which can be integrated into the r
 **Note:**
 Note: This reporsitory is part of [ICRA 2023 paper](). Please visit our [hrl-nav](https://github.com/leekwoon/hrl-nav) repo for more details. 
 
-![1.gif](assets/indoor.gif)
-![1.gif](assets/outdoor.gif)
+![indoor.gif](assets/indoor.gif)
+![outdoor.gif](assets/outdoor.gif)
 
 ## Install
 
