@@ -704,23 +704,23 @@ class NavGymEnv(gym.Env, utils.EzPickle):
 
         self._make_render_obs_txt(obs)
         
-        # if info['is_crash']: # if crash happens, place robot on prev pose
-        #     # print(' [!] Crash!')
-        #     # replace obs to prev_obs
-        #     observation_dict = observation_to_dict(
-        #         self.prev_obs['observation'],
-        #         num_scan_stack=self.num_scan_stack,
-        #         n_angles=self.robot.n_angles
-        #     )
-        #     self.robot.px = observation_dict['pose'][0]
-        #     self.robot.py = observation_dict['pose'][1]
-        #     self.robot.theta = observation_dict['yaw']
-        #     obs = self._convert_obs(
-        #         self.robot, self.humans, self.prev_obs, self.prev_action,
-        #         add_scan_noise=True, lidar_legs=True
-        #     )
-        #     # stack
-        #     obs = self._stack_scan(obs, self.prev_obs_queue, self.num_scan_stack, self.robot.n_angles)
+        if info['is_crash']: # if crash happens, place robot on prev pose
+            # print(' [!] Crash!')
+            # replace obs to prev_obs
+            observation_dict = observation_to_dict(
+                self.prev_obs['observation'],
+                num_scan_stack=self.num_scan_stack,
+                n_angles=self.robot.n_angles
+            )
+            self.robot.px = observation_dict['pose'][0]
+            self.robot.py = observation_dict['pose'][1]
+            self.robot.theta = observation_dict['yaw']
+            obs = self._convert_obs(
+                self.robot, self.humans, self.prev_obs, self.prev_action,
+                add_scan_noise=True, lidar_legs=True
+            )
+            # stack
+            obs = self._stack_scan(obs, self.prev_obs_queue, self.num_scan_stack, self.robot.n_angles)
 
         self.prev_action = action
         self.prev_obs = obs
