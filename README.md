@@ -2,6 +2,9 @@
 
 A OpenAI-gym compatible navigation simulator, which can be integrated into the robot operating system (ROS) with the goal for easy comparison of various approaches including state-of-the-art learning-based approaches and conventional ones.
 
+**Note:**
+Note: This reporsitory is part of [ICRA 2023 paper](). Please visit our [hrl-nav](https://github.com/leekwoon/hrl-nav) repo for more details. 
+
 ![1.gif](assets/indoor.gif)
 ![1.gif](assets/outdoor.gif)
 
@@ -89,5 +92,3 @@ while not done:
 Our codebase builds heavily based on [navrep](https://github.com/ethz-asl/navrep) and [
 flatland](https://github.com/avidbots/flatland). We appreciate that they have been made open source!
 
-
-<!-- Note: This reporsitory is part of arena-bench. Please also check out our most recent paper on arena-bench. For our 3D version using Gazebo as simulation platform, please visit our arena-rosnav-3D repo. -->
