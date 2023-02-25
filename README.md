@@ -2,8 +2,7 @@
 
 A OpenAI-gym compatible navigation simulator, which can be integrated into the robot operating system (ROS) with the goal for easy comparison of various approaches including state-of-the-art learning-based approaches and conventional ones.
 
-**Note:**
-Note: This reporsitory is part of [ICRA 2023 paper](). Please visit our [hrl-nav](https://github.com/leekwoon/hrl-nav) repo for more details. 
+**Note:** This reporsitory is part of [ICRA 2023 paper](). Please visit our [hrl-nav](https://github.com/leekwoon/hrl-nav) repo for more details. 
 
 ![indoor.gif](assets/indoor.gif)
 ![outdoor.gif](assets/outdoor.gif)
@@ -18,7 +17,7 @@ To install without ROS-supported:
 virtualenv ~/venv/hrlnav --python=python3.6
 source ~/venv/hrlnav/bin/activate
 
-git clone https://github.com/leekwoon/nav_gym.git
+git clone https://github.com/leekwoon/nav-gym.git
 
 cd nav-gym/nav_gym
 pip install -e .
@@ -31,7 +30,7 @@ virtualenv ~/venv/hrlnav --python=python3.6
 source ~/venv/hrlnav/bin/activate
 
 cd ~/YOUR_CATKIN_WORKSPACE/src
-git clone https://github.com/leekwoon/nav_gym.git
+git clone https://github.com/leekwoon/nav-gym.git
 
 # install nav_gym_env
 cd nav-gym/nav_gym
