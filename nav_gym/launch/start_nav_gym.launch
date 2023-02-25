@@ -1,0 +1,17 @@
+<launch>
+
+    <node name="base_controller_spawner" pkg="controller_manager" type="spawner"
+        args="husky_joint_publisher husky_velocity_controller"/>
+
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher">
+        <!-- To make rviz work collectly with multiple robots -->
+        <!-- <param name="tf_prefix" type="string" value="$(arg robot_name)"/>  -->
+    </node>
+
+    <param name="robot_description" command="$(find xacro)/xacro '$(find husky_description)/urdf/model.urdf'
+        --inorder
+        " />
+
+    <node pkg="nav_gym" type="nav_gym_node.py" name="nav_gym_node" output="screen">
+    </node>
+</launch>

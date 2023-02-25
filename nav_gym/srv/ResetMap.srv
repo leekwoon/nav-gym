@@ -1,0 +1,6 @@
+# request fields
+nav_msgs/OccupancyGrid map
+---
+# response fields
+bool success
+

@@ -1,0 +1,10 @@
+# request fields
+pedsim_msgs/TrackedPersons humans
+geometry_msgs/PoseStamped pose
+geometry_msgs/PolygonStamped footprint
+geometry_msgs/PolygonStamped threshold_footprint
+geometry_msgs/PolygonStamped discomfort_threshold_footprint
+sensor_msgs/LaserScan scan
+---
+# response fields
+bool success
