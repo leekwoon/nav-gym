@@ -6,8 +6,8 @@ setup(
     description='navigation environment - Gym',
     version='1.0',
     # license='MIT',
-    author='Kyowoon Lee',
-    author_email='leekwoon@unist.ac.kr',
+    author='Kyowoon Lee, Seongun Kim',
+    author_email='leekwoon@unist.ac.kr, seongun@kaist.ac.kr',
     packages=['crowd_nav', 'crowd_sim', 'nav_gym_env', 'nav_gym_ros'],
     package_dir={'':'src'},
     install_requires=[
