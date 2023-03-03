@@ -88,6 +88,5 @@ while not done:
 
 ## Credits
 
-Our codebase builds heavily based on [navrep](https://github.com/ethz-asl/navrep) and [
-flatland](https://github.com/avidbots/flatland). We appreciate that they have been made open source!
-
+Our codebase builds based on [all-in-one-DRL-planner](https://github.com/ignc-research/all-in-one-DRL-planner), [navrep](https://github.com/ethz-asl/navrep) and [
+flatland](https://github.com/avidbots/flatland). 
