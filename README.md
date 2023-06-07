@@ -2,7 +2,7 @@
 
 A OpenAI-gym compatible navigation simulator, which can be integrated into the robot operating system (ROS) with the goal for easy comparison of various approaches including state-of-the-art learning-based approaches and conventional ones.
 
-**Note:** This reporsitory is part of [ICRA 2023 paper](). Please visit our [hrl-nav](https://github.com/leekwoon/hrl-nav) repo for more details. 
+**Note:** This reporsitory is part of [ICRA 2023 paper](https://arxiv.org/pdf/2305.19746.pdf). Please visit our [hrl-nav](https://github.com/leekwoon/hrl-nav) repo for more details. 
 
 ![indoor.gif](assets/indoor.gif)
 ![outdoor.gif](assets/outdoor.gif)
