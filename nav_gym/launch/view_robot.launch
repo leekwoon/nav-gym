@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <launch>
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find dxp2d)/rviz/robot.rviz" output="screen">
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find nav_gym)/rviz/robot.rviz" output="screen">
     </node>
 </launch>
