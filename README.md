@@ -1,4 +1,4 @@
-# nav-env
+# nav-gym
 
 A OpenAI-gym compatible navigation simulator, which can be integrated into the robot operating system (ROS) with the goal for easy comparison of various approaches including state-of-the-art learning-based approaches and conventional ones.
 
