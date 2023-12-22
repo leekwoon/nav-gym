@@ -86,6 +86,21 @@ while not done:
     obs, reward, done, info = env.step(action)
 ```
 
+## Reference
+
+```
+@software{lee2023nav,
+  author={Lee, Kyowoon and Kim, Seongun and Choi, Jaesik},
+  title={nav-gym},
+  url={https://github.com/leekwoon/nav-gym},
+  year={2023}
+}
+```
+
+## License
+
+This repository is released under the MIT license. See [LICENSE](LICENSE) for additional details.
+
 ## Credits
 
 Our codebase builds based on [all-in-one-DRL-planner](https://github.com/ignc-research/all-in-one-DRL-planner), [navrep](https://github.com/ethz-asl/navrep) and [
