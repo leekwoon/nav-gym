@@ -3,9 +3,6 @@ from nav_msgs.msg import OccupancyGrid
 
 
 class MapManager(object):
-    """
-    TODO: publish map after reset sim!
-    """
     def __init__(self, simulation_manager):
         self.simulation_manager = simulation_manager
         self.map_msg = None
